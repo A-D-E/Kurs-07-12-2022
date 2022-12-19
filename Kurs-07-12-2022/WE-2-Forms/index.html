@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WE - 2</title>
+  </head>
+  <body>
+    <!-- .container>.form-container>form.form -->
+
+    <form action="fake.php" method="get">
+      <fieldset>
+        <legend>Legend Text</legend>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Name" required />
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email"
+          readonly
+          required
+        />
+        <label for="password">Password</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="password"
+          required
+        />
+      </fieldset>
+
+      <input type="date" name="" id="" />
+      <textarea
+        rows="3"
+        cols="3"
+        name="textarea"
+        placeholder="textarea"
+        max="200"
+        id="textarea"
+      ></textarea>
+      <label for="checkbox">Checkbox</label>
+      <input type="checkbox" checked name="checkbox" id="checkbox" />
+      <label for="radio-1">Radio 1</label>
+      <input type="radio" name="radio-1" value="1" id="radio-1" />
+      <label for="radio-2">Radio 2</label>
+      <input type="radio" name="radio-2" value="2" id="radio-2" />
+
+      <input type="range" name="range" id="range" />
+
+      <input type="file" name="file" id="file" />
+
+      <!-- select>option[value="$"]{Option $}*100 -->
+
+      <select name="select" id="select">
+        <option value="1">Option 1</option>
+        <option value="2">Option 2</option>
+        <option value="3">Option 3</option>
+        <option value="4">Option 4</option>
+        <option value="5">Option 5</option>
+        <option value="6">Option 6</option>
+        <option value="7">Option 7</option>
+        <option value="8">Option 8</option>
+        <option value="9">Option 9</option>
+        <option value="10">Option 10</option>
+      </select>
+      <input type="reset" value="reset" />
+
+      <input type="submit" value="send" />
+      <button type="submit">Button send</button>
+    </form>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/b598TqLzBb4"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </body>
+</html>

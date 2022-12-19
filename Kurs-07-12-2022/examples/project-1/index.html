@@ -97,7 +97,7 @@
     </style>
   </head>
   <body>
-    <!-- 
+    <!--     
     <div class="container">
       <div class="header">
         <div class="logo">logo---- ❤️</div>
@@ -155,12 +155,16 @@
           </ul>
         </div>
       </div>
-    </div>
-     -->
+    </div> -->
+
     <!-- (.header>(.logo+.menu>ul>(li.item-menu*3>a)))+(.main>((.main-block>(p>span)+.main-block-picture+(p>span)+.main-block-picture1+(p>span)+.main-block-picture1+(p>span))+.sidebar>ul>(li.item-sidebar*3>a)))+(.footer>(.copyright+.footer-menu>ul>(li.item-footer*3>a))) -->
-    (.header>(h1{Hello, World}+.container{Lorem ipsum dolor sit
+    <!-- (.header>(h1{Hello, World}+.container{Lorem ipsum dolor sit
     amet}+.main-block))+(.main>(.main-text>(img>a+p{Lorem
     ipsum}))+(.sidebar>(ul>li{News}+li{Events}+li{Accidents})))+(.footer>(.contacts{14973
-    Potsdam Praline Str.3}+.copyright{All rights reserved}))
+    Potsdam Praline Str.3}+.copyright{All rights reserved})) -->
+    <!-- .container>(.header>(.logo+.header-menu))+(.main>(.main-block+.sidebar>ul>li))+(.footer>((.copyright>p)+.footer-menu>ul>li)) -->
+    div.container#cont>(.header>((.logo{Logo
+    123}+img[src=""])+.header-menu>ul>li*3>a.item-${link
+    $}))+(.main>(.main-block+.sidebar>.container>(.header>(.logo+.header-menu))+(.main>(.main-block>(img[src="https://via.placeholder.com/640"][alt="$"]+p{lorem})*3+.sidebar>ul>li))+(.footer>((.copyright>p)+.footer-menu>ul>li))))+(.footer>((.copyright>p)+.footer-menu>.container>(.header>(.logo+.header-menu))+(.main>(.main-block+.sidebar>ul>li))+(.footer>((.copyright>p)+.footer-menu>ul>li))))
   </body>
 </html>
